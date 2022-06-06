@@ -9,7 +9,11 @@ const Technologies = () => {
 
             <div className="w-full flex flex-wrap justify-center items-center md:mt-5">
                 <TechnologySection type="Frontend" revealTime={0} />
-                <TechnologySection type="Backend" revealTime={0.25} />
+                <TechnologySection type="Backend" revealTime={0.15} />
+            </div>
+
+            <div className="w-full flex flex-wrap justify-center items-center md:mt-5">
+                <TechnologySection type="Animation and Design" revealTime={0.30} />
             </div>
         </div>
     );
