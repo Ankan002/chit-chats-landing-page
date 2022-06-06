@@ -35,7 +35,7 @@ const ContributorCard = (props: Props) => {
 
     return (
         <div ref={ref} className="lg:w-64 md:w-56 w-4/5 md:mx-5 md:my-0 my-5">
-            <motion.div className="w-full h-full flex flex-col justify-center items-center border-2 border-primary-grey p-4 rounded-md hover:cursor-pointer hover:bg-secondary-dark transition-all ease-in-out hover:border-primary-orange" onClick={onRedirectClick} initial="hidden" whileInView="visible" animate={animationControl} variants={variants} transition={{
+            <motion.div className="w-full h-full flex flex-col justify-center items-center border-2 border-primary-grey/40 p-4 rounded-md hover:cursor-pointer hover:bg-secondary-dark transition-all ease-in-out hover:border-primary-orange/80 hover:shadow-[0_1px_12px_2px_rgba(252,90,49,0.7)]" onClick={onRedirectClick} initial="hidden" whileInView="visible" animate={animationControl} variants={variants} transition={{
                 duration: 1,
                 ease: 'easeIn',
                 delay: revealTime

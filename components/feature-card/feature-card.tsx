@@ -36,7 +36,7 @@ const FeatureCard = (props: Props) => {
 
     return (
         <div ref={reference}>
-        <motion.div className="md:w-60 md:h-60 w-52 h-52 bg-primary-dark rounded-lg border-2 border-primary-grey mx-5 my-3 hover:cursor-pointer hover:bg-secondary-dark transition-all ease-in-out flex flex-col lg:p-4 md:p-3 p-2" initial="hidden" whileInView="visible" animate={animationControl} variants={variants} transition={{
+        <motion.div className="md:w-60 md:h-60 w-52 h-52 bg-primary-dark rounded-lg border-2 border-primary-grey mx-5 my-3 hover:cursor-pointer hover:bg-secondary-dark transition-all ease-in-out flex flex-col lg:p-4 md:p-3 p-2 hover:shadow-[0_1px_12px_2px_rgba(252,90,49,0.7)]" initial="hidden" whileInView="visible" animate={animationControl} variants={variants} transition={{
             duration: 1,
             ease: 'easeIn',
             delay: revealTime
