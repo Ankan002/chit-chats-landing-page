@@ -33,7 +33,7 @@ const Hero = () => {
                     delay: 1
                 }} viewport={{ once: false }} >
                     <HeroButton type="info" />
-                    <HeroButton type="download" link="#" />
+                    <HeroButton type="download" link="https://faltu-apk.s3.ap-south-1.amazonaws.com/Chit+Chats.apk" />
                 </motion.div>
             </div>
             <motion.div className="lg:w-1/3 md:w-1/2 w-full flex-grow flex md:items-center items-end justify-center" initial="hidden" whileInView="visible" animate="visible" variants={variants} transition={{
